@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:id="@+id/relative_msg"
+    android:background="#00ffffff"
+    android:layout_marginBottom="2dp">
+
+
+    <ImageView
+        android:id="@+id/msgimg"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@mipmap/ic_person"
+        />
+
+    <me.himanshusoni.chatmessageview.ChatMessageView
+        android:layout_below="@+id/msgimg"
+        android:id="@+id/relativemsglayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:background="@drawable/msg">
+
+
+        <TextView
+            android:id="@+id/userttlmsgtextview"
+            android:paddingTop="3dp"
+            android:paddingLeft="4dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="name" />
+
+        <TextView
+            android:id="@+id/msgtextview"
+            android:layout_below="@+id/userttlmsgtextview"
+            android:padding="5dp"
+            android:text="contant"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+</me.himanshusoni.chatmessageview.ChatMessageView>
+
+
+
+
+    <RelativeLayout
+        android:id="@+id/relativeLayoutTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relativemsglayout">
+
+        <TextView
+            android:id="@+id/msgtimewindow"
+            android:padding="5dp"
+            android:layout_marginLeft="70dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="time" />
+
+    </RelativeLayout>
+
+
+    <ImageView
+        android:id="@+id/imgViewCamera"
+        android:layout_margin="15dp"
+        android:layout_width="200dp"
+        android:layout_height="160dp" />
+
+
+
+
+
+    <Space
+        android:background="#00ffffff"
+        android:layout_below="@+id/relativemsglayout"
+        android:layout_width="match_parent"
+        android:layout_height="15dp" />
+
+
+
+</RelativeLayout>

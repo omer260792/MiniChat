@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">MiniChat</string>
+
+    <string-array name="Settings">
+        <item>        </item>
+        <item>Log Out </item>
+        <item>Profile </item>
+        <item>Game </item>
+    </string-array>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="single_view">Single View</string>
+    <string name="title_activity_single_view">SingleViewActivity</string>
+
+    <string name="textview_Profile">profile</string>
+    <string name="textview_home">home</string>
+    <string name="textview_setting">setting</string>
+    <string name="textview_map">map</string>
+    <string name="textview_chat">settings</string>
+
+</resources>

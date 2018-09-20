@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "656079764137",
+    "firebase_url": "https://minichat-c15ec.firebaseio.com",
+    "project_id": "minichat-c15ec",
+    "storage_bucket": "minichat-c15ec.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:656079764137:android:2b76fad3a4d4f26e",
+        "android_client_info": {
+          "package_name": "com.example.omercohen.minichat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "656079764137-g08au6bgclug3h00f4ja7cotjjri0rrd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.omercohen.minichat",
+            "certificate_hash": "a6cef3263c5153c58b4b53ad5382e472fa87e94c"
+          }
+        },
+        {
+          "client_id": "656079764137-jguqqaj9o2o2mfgjbp7eepq2a9ukvaft.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAx9rImHrhN68zSpGKaWV5anHHKukhT4U4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "656079764137-jguqqaj9o2o2mfgjbp7eepq2a9ukvaft.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
